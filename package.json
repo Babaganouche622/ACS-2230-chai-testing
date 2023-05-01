@@ -5,13 +5,14 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon src/server.js",
-    "test": "mocha src/test"
+    "test": "mocha --exit src/test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "chai-json": "^1.0.0",
     "mocha": "^7.1.1",
     "nodemon": "^2.0.2"
   },
